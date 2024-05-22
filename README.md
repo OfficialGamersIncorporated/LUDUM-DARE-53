@@ -9,6 +9,15 @@ A game about a boy running a newspaper route on his unicycle and dodging traffic
  
  Itch.io:
  https://pc-hris.itch.io/broken-news
+
+ ### Interesting technical notes:
+ * Difficulty had to be adjusted after playtesting to ensure the average player could reasonably play the game.
+ * Difficulty ramps up over time to give the player a chance to get a handle on the game and its controls.
+ * The street and houses scrolling by in the background is just a single stretch looping seamlessly.
+ * Obstacles and vehicles spawn just off the right-side of the screen and despawn as they pass of the left.
+ * The traffic coming behind the player moves faster to catch up with the player and pose a threat while the oncomming traffic is slower to be possible to avoid and balance the difficulty.
+ * Vehicles have a chance to decide to be commit a hit-and-run by just flooring it after making contact with anything and if a car's wheels leave the ground they will take off like a rocketship to add to a crazy and chaotic atmosphere.
+ * There is an extremely rare chance you'll see a dog driving a golf cart.
  
 # Screenshots
 ![2023-05-01 (2)](https://user-images.githubusercontent.com/32988106/236602526-8810edf9-3db0-4c92-a433-9b7eb483bbc1.png)
